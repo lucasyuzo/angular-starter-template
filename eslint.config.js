@@ -29,6 +29,7 @@ export default tseslint.config(
           style: 'kebab-case',
         },
       ],
+      '@typescript-eslint/no-explicit-any': 'off',
       'quotes': ['error', 'single'],
       'semi': ['error', 'always']
     },
